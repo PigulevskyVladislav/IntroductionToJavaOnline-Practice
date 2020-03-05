@@ -17,7 +17,7 @@ public class Prac04BubbleSort {
 			System.out.print(" " + a[i]);
 		}
 		System.out.println();
-		for(int j = 0; j > a.length; j++) {
+		for(int j = 0; j < a.length; j++) {
 			
 			for(int i = 0; i < a.length - 1; i++) {
 			
