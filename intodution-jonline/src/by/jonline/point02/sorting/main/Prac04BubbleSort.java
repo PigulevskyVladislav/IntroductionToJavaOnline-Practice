@@ -4,10 +4,6 @@ public class Prac04BubbleSort {
 
 	public static void main(String args[]) {
 		
-		//
-		// no sense to sort this sequence
-		//
-		
 		int[] a = {5, 9, 12, 16, 21, 35, 36, 38, 50, 99};
 		int val;
 		
@@ -17,9 +13,9 @@ public class Prac04BubbleSort {
 			System.out.print(" " + a[i]);
 		}
 		System.out.println();
-		for(int j = 0; j < a.length; j++) {
+		for(int j = 0; j < a.length - 1; j++) {
 			
-			for(int i = 0; i < a.length - 1; i++) {
+			for(int i = 0; i < a.length - 1 - j; i++) {
 			
 				if(a[i] < a[i + 1]) {
 					
